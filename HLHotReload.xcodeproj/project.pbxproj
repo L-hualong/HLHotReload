@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B08597B24274685002F648B /* HLHotReloadInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B08597524274684002F648B /* HLHotReloadInjector.m */; };
+		7B08597C24274685002F648B /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B08597724274684002F648B /* GCDAsyncSocket.m */; };
+		7B08597D24274685002F648B /* HLHotReloadClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B08597824274684002F648B /* HLHotReloadClient.m */; };
+		7B08597F24274C94002F648B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B08597E24274C94002F648B /* Info.plist */; };
+		7B1EAB72241E29CD00EEFD4D /* FileWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1EAB71241E29CD00EEFD4D /* FileWatcher.m */; };
+		7B1EAB75241E390B00EEFD4D /* HLHotReloadServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1EAB74241E390B00EEFD4D /* HLHotReloadServer.m */; };
+		7B1EBBA3241F965500EEFD4D /* HLHotReloadInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1EBBA2241F965500EEFD4D /* HLHotReloadInjector.swift */; };
+		7BA95ECD241CCDF800CB29EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA95ECC241CCDF800CB29EC /* AppDelegate.m */; };
+		7BA95ED2241CCDFA00CB29EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA95ED1241CCDFA00CB29EC /* Assets.xcassets */; };
+		7BA95ED5241CCDFA00CB29EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA95ED3241CCDFA00CB29EC /* Main.storyboard */; };
+		7BA95ED8241CCDFA00CB29EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA95ED7241CCDFA00CB29EC /* main.m */; };
+		7BA95EEB241CDF7200CB29EC /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA95EEA241CDF7200CB29EC /* GCDAsyncSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B08596F24274617002F648B /* HLHotReloadBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLHotReloadBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B08597524274684002F648B /* HLHotReloadInjector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHotReloadInjector.m; sourceTree = "<group>"; };
+		7B08597624274684002F648B /* HLHotReloadClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHotReloadClient.h; sourceTree = "<group>"; };
+		7B08597724274684002F648B /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		7B08597824274684002F648B /* HLHotReloadClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHotReloadClient.m; sourceTree = "<group>"; };
+		7B08597924274685002F648B /* HLHotReloadInjector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHotReloadInjector.h; sourceTree = "<group>"; };
+		7B08597A24274685002F648B /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		7B08597E24274C94002F648B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B1EAB70241E29CD00EEFD4D /* FileWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileWatcher.h; sourceTree = "<group>"; };
+		7B1EAB71241E29CD00EEFD4D /* FileWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileWatcher.m; sourceTree = "<group>"; };
+		7B1EAB73241E390B00EEFD4D /* HLHotReloadServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHotReloadServer.h; sourceTree = "<group>"; };
+		7B1EAB74241E390B00EEFD4D /* HLHotReloadServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHotReloadServer.m; sourceTree = "<group>"; };
+		7B1EBBA1241F965300EEFD4D /* HLHotReload-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HLHotReload-Bridging-Header.h"; sourceTree = "<group>"; };
+		7B1EBBA2241F965500EEFD4D /* HLHotReloadInjector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLHotReloadInjector.swift; sourceTree = "<group>"; };
+		7BA95EC8241CCDF800CB29EC /* HLHotReload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLHotReload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA95ECB241CCDF800CB29EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BA95ECC241CCDF800CB29EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BA95ED1241CCDFA00CB29EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BA95ED4241CCDFA00CB29EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BA95ED6241CCDFA00CB29EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BA95ED7241CCDFA00CB29EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BA95ED9241CCDFA00CB29EC /* HLHotReload.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HLHotReload.entitlements; sourceTree = "<group>"; };
+		7BA95EE9241CDF7200CB29EC /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = socket/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		7BA95EEA241CDF7200CB29EC /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = socket/GCDAsyncSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B08596C24274617002F648B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA95EC5241CCDF800CB29EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B08597024274618002F648B /* HLHotReloadBundle */ = {
+			isa = PBXGroup;
+			children = (
+				7B08597A24274685002F648B /* GCDAsyncSocket.h */,
+				7B08597724274684002F648B /* GCDAsyncSocket.m */,
+				7B08597624274684002F648B /* HLHotReloadClient.h */,
+				7B08597824274684002F648B /* HLHotReloadClient.m */,
+				7B08597924274685002F648B /* HLHotReloadInjector.h */,
+				7B08597524274684002F648B /* HLHotReloadInjector.m */,
+				7B08597E24274C94002F648B /* Info.plist */,
+			);
+			path = HLHotReloadBundle;
+			sourceTree = "<group>";
+		};
+		7BA95EBF241CCDF800CB29EC = {
+			isa = PBXGroup;
+			children = (
+				7BA95ECA241CCDF800CB29EC /* HLHotReload */,
+				7B08597024274618002F648B /* HLHotReloadBundle */,
+				7BA95EC9241CCDF800CB29EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BA95EC9241CCDF800CB29EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BA95EC8241CCDF800CB29EC /* HLHotReload.app */,
+				7B08596F24274617002F648B /* HLHotReloadBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BA95ECA241CCDF800CB29EC /* HLHotReload */ = {
+			isa = PBXGroup;
+			children = (
+				7BA95ECB241CCDF800CB29EC /* AppDelegate.h */,
+				7BA95ECC241CCDF800CB29EC /* AppDelegate.m */,
+				7B1EAB73241E390B00EEFD4D /* HLHotReloadServer.h */,
+				7B1EAB74241E390B00EEFD4D /* HLHotReloadServer.m */,
+				7B1EBBA2241F965500EEFD4D /* HLHotReloadInjector.swift */,
+				7BA95EE9241CDF7200CB29EC /* GCDAsyncSocket.h */,
+				7BA95EEA241CDF7200CB29EC /* GCDAsyncSocket.m */,
+				7B1EAB70241E29CD00EEFD4D /* FileWatcher.h */,
+				7B1EAB71241E29CD00EEFD4D /* FileWatcher.m */,
+				7BA95ED1241CCDFA00CB29EC /* Assets.xcassets */,
+				7BA95ED3241CCDFA00CB29EC /* Main.storyboard */,
+				7BA95ED6241CCDFA00CB29EC /* Info.plist */,
+				7BA95ED7241CCDFA00CB29EC /* main.m */,
+				7BA95ED9241CCDFA00CB29EC /* HLHotReload.entitlements */,
+				7B1EBBA1241F965300EEFD4D /* HLHotReload-Bridging-Header.h */,
+			);
+			path = HLHotReload;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B08596E24274617002F648B /* HLHotReloadBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B08597224274618002F648B /* Build configuration list for PBXNativeTarget "HLHotReloadBundle" */;
+			buildPhases = (
+				7B08596B24274617002F648B /* Sources */,
+				7B08596C24274617002F648B /* Frameworks */,
+				7B08596D24274617002F648B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLHotReloadBundle;
+			productName = HLHotReloadBundle;
+			productReference = 7B08596F24274617002F648B /* HLHotReloadBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7BA95EC7241CCDF800CB29EC /* HLHotReload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA95EDC241CCDFA00CB29EC /* Build configuration list for PBXNativeTarget "HLHotReload" */;
+			buildPhases = (
+				7BA95EC4241CCDF800CB29EC /* Sources */,
+				7BA95EC5241CCDF800CB29EC /* Frameworks */,
+				7BA95EC6241CCDF800CB29EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLHotReload;
+			productName = HLHotReload;
+			productReference = 7BA95EC8241CCDF800CB29EC /* HLHotReload.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BA95EC0241CCDF800CB29EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "刘华龙";
+				TargetAttributes = {
+					7B08596E24274617002F648B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					7BA95EC7241CCDF800CB29EC = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 7BA95EC3241CCDF800CB29EC /* Build configuration list for PBXProject "HLHotReload" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BA95EBF241CCDF800CB29EC;
+			productRefGroup = 7BA95EC9241CCDF800CB29EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BA95EC7241CCDF800CB29EC /* HLHotReload */,
+				7B08596E24274617002F648B /* HLHotReloadBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B08596D24274617002F648B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B08597F24274C94002F648B /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA95EC6241CCDF800CB29EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA95ED2241CCDFA00CB29EC /* Assets.xcassets in Resources */,
+				7BA95ED5241CCDFA00CB29EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B08596B24274617002F648B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B08597D24274685002F648B /* HLHotReloadClient.m in Sources */,
+				7B08597C24274685002F648B /* GCDAsyncSocket.m in Sources */,
+				7B08597B24274685002F648B /* HLHotReloadInjector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA95EC4241CCDF800CB29EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA95EEB241CDF7200CB29EC /* GCDAsyncSocket.m in Sources */,
+				7B1EAB75241E390B00EEFD4D /* HLHotReloadServer.m in Sources */,
+				7BA95ED8241CCDFA00CB29EC /* main.m in Sources */,
+				7B1EBBA3241F965500EEFD4D /* HLHotReloadInjector.swift in Sources */,
+				7B1EAB72241E29CD00EEFD4D /* FileWatcher.m in Sources */,
+				7BA95ECD241CCDF800CB29EC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BA95ED3241CCDFA00CB29EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BA95ED4241CCDFA00CB29EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B08597324274618002F648B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PS3YC63TXE;
+				INFOPLIST_FILE = HLHotReloadBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hualong.HLHotReloadBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7B08597424274618002F648B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PS3YC63TXE;
+				INFOPLIST_FILE = HLHotReloadBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hualong.HLHotReloadBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7BA95EDA241CCDFA00CB29EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7BA95EDB241CCDFA00CB29EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7BA95EDD241CCDFA00CB29EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HLHotReload/HLHotReload.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PS3YC63TXE;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = HLHotReload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hualong.HLHotReload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HLHotReload/HLHotReload-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7BA95EDE241CCDFA00CB29EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HLHotReload/HLHotReload.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PS3YC63TXE;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = HLHotReload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hualong.HLHotReload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HLHotReload/HLHotReload-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B08597224274618002F648B /* Build configuration list for PBXNativeTarget "HLHotReloadBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B08597324274618002F648B /* Debug */,
+				7B08597424274618002F648B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA95EC3241CCDF800CB29EC /* Build configuration list for PBXProject "HLHotReload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA95EDA241CCDFA00CB29EC /* Debug */,
+				7BA95EDB241CCDFA00CB29EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA95EDC241CCDFA00CB29EC /* Build configuration list for PBXNativeTarget "HLHotReload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA95EDD241CCDFA00CB29EC /* Debug */,
+				7BA95EDE241CCDFA00CB29EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BA95EC0241CCDF800CB29EC /* Project object */;
+}
