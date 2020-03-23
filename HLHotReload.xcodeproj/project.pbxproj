@@ -10,7 +10,6 @@
 		7B08597B24274685002F648B /* HLHotReloadInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B08597524274684002F648B /* HLHotReloadInjector.m */; };
 		7B08597C24274685002F648B /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B08597724274684002F648B /* GCDAsyncSocket.m */; };
 		7B08597D24274685002F648B /* HLHotReloadClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B08597824274684002F648B /* HLHotReloadClient.m */; };
-		7B08597F24274C94002F648B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B08597E24274C94002F648B /* Info.plist */; };
 		7B1EAB72241E29CD00EEFD4D /* FileWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1EAB71241E29CD00EEFD4D /* FileWatcher.m */; };
 		7B1EAB75241E390B00EEFD4D /* HLHotReloadServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1EAB74241E390B00EEFD4D /* HLHotReloadServer.m */; };
 		7B1EBBA3241F965500EEFD4D /* HLHotReloadInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1EBBA2241F965500EEFD4D /* HLHotReloadInjector.swift */; };
@@ -29,7 +28,6 @@
 		7B08597824274684002F648B /* HLHotReloadClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLHotReloadClient.m; sourceTree = "<group>"; };
 		7B08597924274685002F648B /* HLHotReloadInjector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLHotReloadInjector.h; sourceTree = "<group>"; };
 		7B08597A24274685002F648B /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
-		7B08597E24274C94002F648B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B1EAB70241E29CD00EEFD4D /* FileWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileWatcher.h; sourceTree = "<group>"; };
 		7B1EAB71241E29CD00EEFD4D /* FileWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileWatcher.m; sourceTree = "<group>"; };
 		7B1EAB73241E390B00EEFD4D /* HLHotReloadServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHotReloadServer.h; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 				7B08597824274684002F648B /* HLHotReloadClient.m */,
 				7B08597924274685002F648B /* HLHotReloadInjector.h */,
 				7B08597524274684002F648B /* HLHotReloadInjector.m */,
-				7B08597E24274C94002F648B /* Info.plist */,
 			);
 			path = HLHotReloadBundle;
 			sourceTree = "<group>";
@@ -199,7 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B08597F24274C94002F648B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
